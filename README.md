@@ -1,1 +1,1 @@
-# cysn
+# sample-golnag-server
