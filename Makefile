@@ -6,3 +6,5 @@ stop:
 	docker stop sample-golnag-server
 	docker rm sample-golnag-server
 	docker rmi sample-golnag-server
+
+restart: stop start
