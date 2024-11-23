@@ -1,5 +1,5 @@
 # ステージ１
-FROM golang:1.23.3-alpine3.20 AS go
+FROM golang:1.23-alpine3.20 AS go
 WORKDIR /app
 COPY ./ ./
 RUN go mod download && go build -o main /app/main.go
